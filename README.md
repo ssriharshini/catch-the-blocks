@@ -2,8 +2,9 @@
 
 ## Team Members
 - Sriharshini S
-- Team Member 2
-- Team Member 3
+- Ayaaz Khan
+- Dhanish Kumar
+- Roja munilakshmi
 
 ## Game Description
 Catch The Blocks is a browser-based interactive game where players must click highlighted blocks to earn points. Missing too many blocks ends the game.
@@ -30,4 +31,6 @@ Catch The Blocks is a browser-based interactive game where players must click hi
 - Event handling
 
 ## GitHub Repository
-https://github.com/yourusername/catch-the-blocks
+https://github.com/ssriharshini/catch-the-blocks
+
+
