@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catch The Blocks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="startScreen" class="screen">
+    <h1>Catch The Blocks</h1>
+    <p>Click the blocks to score points. Miss 5 blocks and the game ends.</p>
+    <button id="startBtn">Start Game</button>
+</div>
+
+<div id="gameScreen" class="screen hidden">
+    <div id="scoreBoard">Score: 0 | Missed: 0</div>
+    <div id="grid"></div>
+</div>
+
+<div id="gameOverScreen" class="screen hidden">
+    <h2>Game Over</h2>
+    <p id="finalScore"></p>
+    <button id="restartBtn">Restart</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

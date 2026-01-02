@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+}
+
+.screen {
+    margin-top: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.block {
+    width: 60px;
+    height: 60px;
+    background-color: #444;
+    cursor: pointer;
+}
+
+.block.active {
+    background-color: #4caf50;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
